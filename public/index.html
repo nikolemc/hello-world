@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html>
   <head lang="en">
+    <style>
+      div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: #312C3B;
+    clear: left;
+    text-align: center;
+}
+
+      #myHeader { text-transform: uppercase;
+      text-align: center;
+      font-size:300%;
+      font-family:Verdana, Geneva, Tahoma, sans-serif
+          }
+      img{width: 100%}   
+      p{font-family:Verdana, Geneva, Tahoma, sans-serif} 
+    </style>
+    <body style="background-color:aliceblue;">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <title>Intro to HTML</title>
     <link rel="stylesheet" href="/screen.css">
   </head>
   <body>
-    <h1>Hello, World!</h1>
+  <div class="container">
+  <header>  
+  <h1 id="myHeader">A Closer Look at the History of Web Design</h1>
+  </header>
+<p>
+<img src="http://www.brookswebdesign.net/wp-content/uploads/2015/08/ResponsiveWebDesign-450x300.jpg" alt="webdesign-courses" style="float:left;width:450px;height:300px;margin-right:10px;margin-bottom:5px;border: 2px solid #312C3B;">
+    <p>Web design has made incredible transformations since the dark days of 1989 to modern day.  In the early days web design was limited to a simple monochrome palette.  Then in 1995, we saw the introduction of browsers which could display images. David Siegel wrote a ground breaking book called <a href="https://www.amazon.com/Creating-Killer-Web-Sites-Third-Generation/dp/1568302894" target="_blank">Creating Killer Web Sites: The Art of Third-Generation Site Design</a>  which highlighted intelligent ways to mix static and fluid cells. At its most simplest form putting tables within  tables. Tables allowed for things to be aligned vertically, and to be defined by pixels or percentages. However the structure of these designs were extremely fragile and had many limitations. JavaScript managed to resolve much of these issues. For example, allowing popup windows. and the ability order dynamically. </p>
+    <p>JavaScript, however also had it's own limitations. The main being that JavaScript is layered on top the fabric that makes the web function and has to be loaded separately. Nowadays CSS is the preferred to JavaScript. CSS <em>(Cascading Style Sheets)</em> has a better approach to structure design, whereby content is separated from the presentation. Therefore  the look and formatting are defined in CSS, but the content is in HTML. </p>
+    <p>As technology continued to grow and we saw the introduction of browsing on mobile devices, also meant that there were entirely new challenges regarding layouts and design. Questions regarding design content, advert positioning and speed were some of the main issues. Improvements to the column grid, saw the introduction of the 960 grid and 12 column division. Commonly used elements like forms, navigation, buttons, and to pack them in an easy, reusable way were then standardized. </p>
+    <p>Then in 2010, Ethan Marcotte offered an alternative approach known as "Responsive Web Design", whereby proposing to use the same content, but different layouts for design.  The main benefit being that the same website works on any device whether that be a mobile or desktop. Designing multiple layouts is time consuming, so the focus now has reverted back to the roots of design and prioritizing content. Web designs are now more flat, and use vector images and icon fonts. </p>
+    <p>The future of web design is to allow designers to move things around the screen that then generates clean code.  There are a few new concepts that support this progress. For instance in CSS the vh,vw allow much greater flexibility to position elements. There has been huge developments that have been seen in web design over the past couple of decades, with huge progress happening in the past few years. As people continue to use and access the web from their various mobile devices I feel that there will always be the demand to increase speed, but the basic priority of content first will hold true. </p>
+<footer>Copyright &copy; nikolemcstanley.com</footer>
+</body>
   </body>
 </html>
